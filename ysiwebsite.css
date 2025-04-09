@@ -22,3 +22,43 @@ li a {
 li a:hover {
   background-color: #111;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.member-card {
+  background-color: #fff;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.member-header {
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #e0e0e0;
+}
+
+.member-description {
+  padding: 15px;
+  display: none;
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+
+.member-card.expanded .member-description {
+  display: block;
+}
