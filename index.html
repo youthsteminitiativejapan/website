@@ -33,6 +33,36 @@
       <p>From robotics workshops to AI research, check out how we’re inspiring the next generation of innovators!</p>
     </section>
 
+    <section id="members">
+      <h2>運営メンバー</h2>
+        <div class="member-card" onclick="toggleDescription(this)">
+          <div class="member-header">Maria Fujisawa</div>
+            <div class="member-description">
+              Alice is a software engineer focused on web development and UI design.
+            </div>
+          </div>
+
+      <div class="member-card" onclick="toggleDescription(this)">
+        <div class="member-header">Ryuma Kojima</div>
+          <div class="member-description">
+            Bob is a mechanical engineer passionate about robotics and CAD modeling.
+        </div>
+      </div>
+
+      <div class="member-card" onclick="toggleDescription(this)">
+        <div class="member-header">Erina Maeda</div>
+          <div class="member-description">
+            Charlie leads the data analysis team and specializes in machine learning.
+          </div>
+      </div>
+
+      <script>
+        function toggleDescription(card) {
+        card.classList.toggle('expanded');
+        }
+      </script>
+
+
     <section id="join">
       <h2>Join Us</h2>
       <p>Interested in learning more or volunteering? Click below to get involved.</p>
