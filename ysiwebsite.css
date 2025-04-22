@@ -77,7 +77,6 @@ body {
   font-weight: bold;
 }
 
-/* Customize colors */
 .skill-tag.neuroscience {
   background-color: #ff69b4; /* pink */
 }
@@ -86,7 +85,7 @@ body {
   background-color: #e44d26; /* orange-red */
 }
 
-.skill-tag.c++ {
+.skill-tag.cpp {
   background-color: #00599C; /* blue */
 }
 
