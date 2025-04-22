@@ -62,3 +62,34 @@ body {
 .member-card.expanded .member-description {
   display: block;
 }
+.skills {
+  padding: 10px;
+  text-align: center;
+}
+
+.skill-tag {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  color: white;
+  margin: 5px 5px 0 0;
+  font-weight: bold;
+}
+
+/* Customize colors */
+.skill-tag.neuroscience {
+  background-color: #ff69b4; /* pink */
+}
+
+.skill-tag.html {
+  background-color: #e44d26; /* orange-red */
+}
+
+.skill-tag.c++ {
+  background-color: #00599C; /* blue */
+}
+
+.skill-tag.bmi {
+  background-color: #4CAF50; /* green */
+}
