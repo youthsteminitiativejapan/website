@@ -103,6 +103,11 @@
   color: #555;
 }
 
+.ysimap{
+  margin-left:100px;
+  margin-right:100px;
+  width:60%;
+}
 
 ul {
   list-style-type: none; 
