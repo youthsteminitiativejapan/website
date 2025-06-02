@@ -1,12 +1,38 @@
-.title{
+#about {
+  padding: 2rem;
+  background-color: #f9f9f9;
   text-align: center;
-  text-size: 48px;
 }
-.aboutstatement{
-  margin-left:100px;
-  margin-right:100px;
-  text-size: 24px;
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
 }
+
+.aboutstatement {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+}
+
+.ysi-button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  background-color: #004aad;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ysi-button:hover {
+  background-color: #00337a;
+}
+
 ul {
   list-style-type: none; 
   margin: 0;
