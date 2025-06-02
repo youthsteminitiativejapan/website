@@ -2,6 +2,11 @@ title{
   text-align: center;
   text-size: 48px;
 }
+about-description{
+  margin-left:100px;
+  margin-right:100px;
+  text-size: 24px;
+}
 ul {
   list-style-type: none; 
   margin: 0;
