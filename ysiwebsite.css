@@ -103,11 +103,13 @@
   color: #555;
 }
 
-.ysimap{
-  margin-left:100px;
-  margin-right:100px;
-  width:60%;
+.ysimap {
+  display: block;
+  max-width: 100%;
+  width: 600px; 
+  margin: 0 auto;
 }
+
 
 ul {
   list-style-type: none; 
