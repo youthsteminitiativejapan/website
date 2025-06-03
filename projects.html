@@ -5,7 +5,116 @@
   <link rel="icon" href="ysi profile pic.png" type="image/x-icon">
   <title>Youth STEM Initiative Japan</title>
   <link rel="stylesheet" href="ysiwebsite.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f8fafc;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 3rem 1rem 1rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    p.description {
+      font-size: 1.1rem;
+      color: #555;
+      max-width: 700px;
+      margin: 0 auto 2rem;
+    }
+
+    .masonry {
+      column-count: 3;
+      column-gap: 1.5rem;
+      padding: 0 2rem;
+    }
+
+    .project-card {
+      background: #fff;
+      margin: 0 0 1.5rem;
+      display: inline-block;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .project-card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card-content {
+      padding: 1rem;
+      text-align: left;
+    }
+
+    .card-content h3 {
+      font-size: 1.3rem;
+      margin: 0 0 0.5rem;
+    }
+
+    .card-content p {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    @media (max-width: 992px) {
+      .masonry {
+        column-count: 2;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .masonry {
+        column-count: 1;
+        padding: 0 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-</body>
 
+<header>
+  <h1>Our Projects</h1>
+  <p class="description">
+    From robotics workshops to AI research, here’s how we’re shaping the future of STEM education in Japan.
+  </p>
+</header>
+
+<div class="masonry">
+  <!-- Project card 1 -->
+  <div class="project-card">
+    <img src="images/project1.jpg" alt="Robotics Workshop">
+    <div class="card-content">
+      <h3>Robotics Workshop</h3>
+      <p>Students built their first autonomous robots in this interactive workshop.</p>
+    </div>
+  </div>
+
+  <!-- Project card 2 -->
+  <div class="project-card">
+    <img src="images/project2.jpg" alt="AI Linguistics Research">
+    <div class="card-content">
+      <h3>AI Linguistics Research</h3>
+      <p>Exploring the intersection of language and artificial intelligence in our global publication initiative.</p>
+    </div>
+  </div>
+
+  <!-- Add more project cards as needed -->
+</div>
+
+</body>
+</html>
