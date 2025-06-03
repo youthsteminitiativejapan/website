@@ -3,7 +3,21 @@
   background-color: #f9f9f9;
   text-align: center;
 }
-
+#projects{
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+#members{
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+#join{
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
 .title {
   font-size: 2rem;
   font-weight: bold;
