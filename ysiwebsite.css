@@ -280,6 +280,18 @@ nav {
   font-weight: 600;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.logo img {
+  height: 50px;
+  width: auto;
+}
+
 /* Prevent content from hiding under fixed navbar */
 body {
   padding-top: 70px; /* adjust depending on nav height */
