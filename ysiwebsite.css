@@ -260,7 +260,6 @@ nav {
   width: 100%;
   background-color: white; 
   z-index: 9999;
-  padding: 1rem;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
@@ -281,7 +280,7 @@ nav {
 
 .navbar a {
   text-decoration: none;
-  color: #00F3FF;
+  color: #FFFFF;
   font-weight: 600;
 }
 
