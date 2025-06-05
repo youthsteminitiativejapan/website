@@ -282,4 +282,8 @@ body {
 body {
   padding-top: 70px; /* adjust depending on nav height */
 }
+.navbar a:hover {
+  color: #007bff;
+}
+
 
