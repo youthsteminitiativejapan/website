@@ -1,3 +1,8 @@
+.main-title {
+  margin-top: 400px; 
+  text-align: center;
+}
+
 #about {
   padding: 2rem;
   background-color: #f9f9f9;
