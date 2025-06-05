@@ -247,3 +247,39 @@ body {
 .card-content {
   padding: 1rem;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff; /* or any color */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+/* Align items in one line */
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 1rem;
+}
+
+/* Style each link */
+.navbar li {
+  margin: 0 1.5rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Prevent content from hiding under fixed navbar */
+body {
+  padding-top: 70px; /* adjust depending on nav height */
+}
+
