@@ -103,16 +103,6 @@
   width: 120px;
 }
 
-.stat h3 {
-  font-size: 32px;
-  color: #1a73e8;
-}
-
-.stat p {
-  font-size: 14px;
-  color: #555;
-}
-
 .ysimap {
   display: block;
   max-width: 100%;
