@@ -139,26 +139,6 @@
   margin: 20px;
 }
 
-.stat h2 {
-  font-size: 72px;
-  font-weight: 900;
-  margin: 10px 0;
-}
-
-.stat h4 {
-  font-size: 24px;
-  font-weight: 600;
-  margin: 0;
-}
-
-@media (max-width: 768px) {
-  .stat h2 {
-    font-size: 48px;
-  }
-
-  .stat h4 {
-    font-size: 18px;
-  }
 
   .title {
     font-size: 36px;
