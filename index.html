@@ -88,49 +88,33 @@
       </a>
     </section>
 
-    <section id="members">
-      <h2 class="title">運営メンバー</h2>
-        <div class="member-card" onclick="toggleDescription(this)">
-          <div class="member-header">Maria Fujisawa</div>
-            <div class="skills">
-              <span class="skill-tag html">HTML</span>
-              <span class="skill-tag bmi">Brain machine interface</span>
-            </div>
-            <div class="member-description">
-              Interests: Engineering, Neurotechnology (Brain machine interfaces)
-              I’m a 17 year old student based in Tokyo, passionate about brain machine interfaces and engineering. I am a scientific 
-              researcher/ the Japan chapter leader at youth STEM initiative. I currently research the effect virtual reality plays in
-              motor imagery for brain machine interfaces. I also love robotics, 3D printing, and anything that involves building/creating,
-              whether it’s tech or communities. 
-            </div>
-          </div>
-
-      <div class="member-card" onclick="toggleDescription(this)">
-        <div class="member-header">Ryuma Kojima</div>
-          <div class="skills">
-            <span class="skill-tag Cpp">C++</span>
-          </div>
-          <div class="member-description">
-        </div>
+    <h2 class="title">運営メンバー</h2>
+      <div class="members-grid">
+      <div class="member-box">
+        <img src="maria.jpg" alt="Maria" class="member-pfp">
+        <h3>Maria Fujisawa</h3>
+        <p>Brain-Machine Interfaces / Robotics</p>
       </div>
 
-      <div class="member-card" onclick="toggleDescription(this)">
-        <div class="member-header">Erina Maeda</div>
-          <span class="skill-tag neuroscience">Neuroscience</span>
-          <div class="member-description">
-            Interests: Neuroscience
-            I’m a high school student with a big curiosity streak and a special fascination with neurology—I love delving in the unknown!
-            I’m currently researching induced Neurons. That said, I’m the kind of person who can get super into just about anything if it 
-            sparks my interest. One day it’s neurons, the next it’s Greek mythology or sports. Basically, I’m on a constant adventure of 
-            learning, and I’m loving the ride.
-          </div>
+      <div class="member-box">
+        <img src="ryuma.jpg" alt="Ryuma" class="member-pfp">
+        <h3>Ryuma Kojima</h3>
+        <p>AI & C++ Developer</p>
       </div>
 
-      <script>
-        function toggleDescription(card) {
-        card.classList.toggle('expanded');
-        }
-      </script>
+      <div class="member-box">
+        <img src="erina.jpg" alt="Erina" class="member-pfp">
+        <h3>Erina Maeda</h3>
+        <p>Neuroscience / Researcher</p>
+      </div>
+
+      <div class="member-box">
+        <img src="you.jpg" alt="You" class="member-pfp">
+        <h3>Your Name</h3>
+        <p>Role or interest</p>
+      </div>
+    </div>
+
     </section>
 
     <section id="join">
