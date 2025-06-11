@@ -329,21 +329,31 @@ body {
 .card-content {
   padding: 1rem;
 }
-/*social media links*/
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  padding: 1rem 0;
-  font-size: 1.8rem;
-}
-
-.social-icons a {
+footer {
+  background-color: #f8f8f8;
+  padding: 20px 0;
+  text-align: center;
   color: #333;
-  transition: color 0.3s;
+  font-family: 'Arial', sans-serif;
+  margin-top: 40px;
 }
 
-.social-icons a:hover {
-  color: #007BFF; /* Or your brand color */
+/* Icon links inside footer */
+footer a {
+  margin: 0 15px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
+
+footer a:hover {
+  color: #0073e6; /* Light blue on hover */
+}
+
+/* Make icons slightly larger */
+footer i {
+  font-size: 24px;
+}
+
+
 
