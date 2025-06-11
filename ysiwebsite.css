@@ -238,12 +238,12 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: white; 
+  background-color: black; 
   z-index: 9999;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 .navbar {
-  background-color: #004aad; /* or any color you like */
+  background-color: #000000; /* or any color you like */
   padding: 1rem 2rem;
 }
 
